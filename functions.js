@@ -23,12 +23,15 @@ const highSchool = getSchool()
 console.log(highSchool);
 
 
-
 /* Opdracht 2 */
 // Schrijf een functie genaamd compliment, die jou een complimentje geeft!
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Lekker bezig met die functies, Jan!"
 
+function compliment () {
+  return "Lekker bezig met die functies, Jan!";
+}
 
+console.log(compliment());
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd getGrades, die een array met de cijfers 8, 8.5, 6 en 7 teruggeeft.
