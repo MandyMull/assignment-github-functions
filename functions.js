@@ -37,6 +37,11 @@ console.log(compliment());
 // Schrijf een functie genaamd getGrades, die een array met de cijfers 8, 8.5, 6 en 7 teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: [8, 8.5, 6, 7]
 
+function getGrades (grades) {
+  const grades2 = [8, 8.5, 6, 7];
+  return grades2;
+}
+console.log(getGrades());
 
 
 /* Opdracht 4 */
